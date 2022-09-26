@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing : border-box;
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    color: #fff;
+    display :flex;
+    height:  100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #05073a, #dc0606ca);
+    padding:10px;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 25px;
+    background: linear-gradient(135deg,#dc0606ca, #05073a);
+}
+
+    .container .heading {
+        font-size: 25px;
+        font-weight: 500;
+        position: relative;
+        text-align: center;
+        padding: 0 0 20px 0;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+.container .heading::before{
+    content: '';
+    position: absolute;
+    height: 3px ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #71b7e6, #9b5b)
+}
+
+    .container form .area {
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+.container form .BHK {
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+.container form .BATH_CLASS {
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container form .location {
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+
+.submit {
+    background: #71b7e6;
+    width: 40%;
+    border: 0;
+    margin: 25px 0 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 35px;
+    text-align: center;
+}
+
+.result {
+    background: #b200ff;
+    width: 40%;
+    border: 0;
+    margin: 25px 0 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 35px;
+    text-align: center;
+    margin-left: 190px ;
+}
+
+.submit1{
+    text-align:center;
+}
+

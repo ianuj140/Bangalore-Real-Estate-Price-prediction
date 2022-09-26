@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BANGALORE HOUSING PREDICTION</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="app1.js"></script>
+    <link rel="stylesheet" href="app1.css" type="text/css" />
+
+</head>
+<body>
+
+
+    <div class="img"></div>
+    <div class="container">
+        <div class="heading">
+            BANGALORE HOUSING PRICE PREDICTION PROJECT
+        </div>
+        <form>
+            <div class="area">
+                <p>AREA (SQUARE FEET): &nbsp;&nbsp;  </p>
+                <input type="text" id="sqft_id" name="sqft" value="1000">
+            </div>
+            <div class="BHK" type="text" name="bhk" value="2">
+                Select BHK:
+                <input type="radio" id="bhk1_id" name="bhk" value="1">
+                <label for="bhk1">1</label>
+                <input type="radio" id="bhk2_id" name="bhk" value="2" checked>
+                <label for="bhk2">2 </label>
+                <input type="radio" id="bhk3_id" name="bhk" value="3">
+                <label for="bhk3">3 </label>
+                <input type="radio" id="bhk4_id" name="bhk" value="4">
+                <label for="bhk4">4 </label>
+                <input type="radio" id="bhk5_id" name="bhk" value="5">
+                <label for="bhk5">5 </label>
+            </div>
+            <br>
+
+            <div class="BATH_CLASS" type="text" name="bath">
+                Select Bath: 
+                <input type="radio" id="bath1_id" name="bath" value="1">
+                <label for="bath1">1</label>
+                <input type="radio" id="bath2_id" name="bath" value="2" checked>
+                <label for="bath2">2</label>
+                <input type="radio" id="bath3_id" name="bath" value="3">
+                <label for="bath3">3</label>
+                <input type="radio" id="bath4_id" name="bath" value="4">
+                <label for="bath4">4</label>
+                <input type="radio" id="bath5_id" name="bath" value="5">
+                <label for="bath5">5</label>
+  </div>
+            <br>
+
+            <div class="location">
+                <p>
+                    <label for="location_id">Select Location: &nbsp; &nbsp; &nbsp;  </label>
+                </p>
+
+
+                <select name="location" id="location_id">
+                    <option value="" disabled="disabled" selected="selected">Choose a Location</option>
+
+                    <option value="Rajaji Nagar">Rajaji Nagar</option>
+                    <option value="Electronic City">Electronic City</option>
+                </select>
+
+            </div>
+            <br>
+            <div class="submit1">
+            <button class="submit" onclick="get_estimated_price()" type="button">   &nbsp Get Estimated Price  &nbsp </button>
+            </div>
+            <div id="estimate_price_id" class="result">  </div>
+        </form>
+    </div>
+</body>
+</html>
