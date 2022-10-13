@@ -12,7 +12,7 @@
 
 The objective of the project is to create a machine learning model. We are doing a supervised learning and our aim is to do predictive analysis to predict housing prices in Bangalore.
 
-Project Concept and Inspriration:
+## Project Concept and Inspriration:
 
 Many times we have come across websites like "Magicbricks.com" or "99acres.com" where they sell and estimate the price of the property in many part of the country so this model is also inspired by the concept of predicting property prices based on the area, bedrooms, bathrooms and location.
 
