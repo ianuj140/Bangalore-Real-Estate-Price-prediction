@@ -1,7 +1,6 @@
 # Full Stack Data Science Project
 
-# Bangalore_Housing_Price_Prediction
-
+# Bangalore Real Estate Price Prediction
 
 
 ## Screenshots
